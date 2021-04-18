@@ -1,0 +1,54 @@
+use proyectobases;
+
+
+CREATE TABLE Almacen(
+ID_almacen int not null auto_increment,
+cantidad char(50), 
+ID_producto int, 
+primary key (ID_almacen)
+);
+
+
+CREATE TABLE Producto(
+ID_producto int not null auto_increment,
+Nombre varchar(255),
+Descripcion varchar(255),
+Precio decimal,
+primary key (ID_producto)
+);
+
+CREATE TABLE Venta(
+ID_venta int not null auto_increment,
+fecha date,
+cantidad varchar(255),
+ID_cliente int,
+descuento decimal,
+precio decimal, 
+ISV decimal,
+primary key (ID_venta)
+);
+
+
+create table Dependiente(
+ID_dependiente int not null auto_increment,
+nombre varchar(255),
+telefono int,
+email varchar(255),
+ID_Venta int,
+primary key (ID_dependiente)
+);
+
+create table cliente(
+ID_cliente int not null auto_increment,
+telefono int,
+nombre varchar(255),
+ID_estado_cliente int,
+primary key (ID_cliente)
+);
+
+create table Estadi_Cliente(
+ID_estado_cliente int not null auto_increment,
+descripcion varchar(255),
+primary key (ID_estado_cliente)
+);
+
