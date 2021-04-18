@@ -1,0 +1,42 @@
+ALTER TABLE `proyectobases`.`Almacen` 
+ADD INDEX `ID_producto_idx` (`ID_producto` ASC) VISIBLE;
+;
+ALTER TABLE `proyectobases`.`Almacen` 
+ADD CONSTRAINT `ID_producto`
+  FOREIGN KEY (`ID_producto`)
+  REFERENCES `proyectobases`.`Producto` (`ID_producto`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+
+ALTER TABLE `proyectobases`.`Dependiente` 
+ADD INDEX `ID_venta_idx` (`ID_Venta` ASC) VISIBLE;
+;
+ALTER TABLE `proyectobases`.`Dependiente` 
+ADD CONSTRAINT `ID_venta`
+  FOREIGN KEY (`ID_Venta`)
+  REFERENCES `proyectobases`.`Venta` (`ID_venta`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+ALTER TABLE `proyectobases`.`Venta` 
+ADD INDEX `ID_cliente_idx` (`ID_cliente` ASC) VISIBLE;
+;
+ALTER TABLE `proyectobases`.`Venta` 
+ADD CONSTRAINT `ID_cliente`
+  FOREIGN KEY (`ID_cliente`)
+  REFERENCES `proyectobases`.`Venta` (`ID_venta`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+
+ALTER TABLE `proyectobases`.`cliente` 
+ADD INDEX `ID_estado_cliente_idx` (`ID_estado_cliente` ASC) VISIBLE;
+;
+ALTER TABLE `proyectobases`.`cliente` 
+ADD CONSTRAINT `ID_estado_cliente`
+  FOREIGN KEY (`ID_estado_cliente`)
+  REFERENCES `proyectobases`.`cliente` (`ID_estado_cliente`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
