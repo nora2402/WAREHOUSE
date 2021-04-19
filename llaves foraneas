@@ -31,12 +31,13 @@ ADD CONSTRAINT `ID_cliente`
 
 
 ALTER TABLE `proyectobases`.`cliente` 
-ADD INDEX `ID_estado_cliente_idx` (`ID_estado_cliente` ASC) VISIBLE;
+DROP FOREIGN KEY `ID_estado_cliente`;
+ALTER TABLE `proyectobases`.`cliente` 
 ;
+ALTER TABLE `proyectobases`.`cliente` ALTER INDEX `ID_estado_cliente_idx` VISIBLE;
 ALTER TABLE `proyectobases`.`cliente` 
 ADD CONSTRAINT `ID_estado_cliente`
   FOREIGN KEY (`ID_estado_cliente`)
-  REFERENCES `proyectobases`.`cliente` (`ID_estado_cliente`)
+  REFERENCES `proyectobases`.`Estadi_Cliente` (`ID_estado_cliente`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
-
