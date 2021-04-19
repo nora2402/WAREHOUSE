@@ -1,0 +1,7 @@
+alter table Venta ADD column ID_producto int;
+
+alter table Venta ADD column ID_empleado int;
+
+alter table cliente ADD column email varchar(255);
+
+alter table dependiente drop column ID_venta;
