@@ -1,0 +1,37 @@
+
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('coca cola','refresco',55.00,'1');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('pepsi','refresco',50.00,'1');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('fresca','refresco',45.00,'1');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('fanta','refresco',45.00,'1');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('7 up','refresco',45.00,'1');
+
+
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('shampu sedal','higiene personal',30.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('jabon protex','higiene personal',20.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('sepillo de diente colgate','higiene personal',15.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('pasta de diente colgate','higiene personal',22.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('acondicionador sedal','higiene personal',35.00,'2');
+
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('cloro orix','limpieza para el hogar',5.00,'3');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('escoba','limpieza para el hogar',20.00,'3');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('aromantizante limpiox','limpieza para el hogaro',15.00,'3');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('cesto de basura','limpieza para el hogar',35.00,'3');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('recogedor','limpieza para el hogar',15.00,'3');
+
+
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('frijoles','alimentos basicos',35.00,'4');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('arroz','alimentos basicos',20.00,'4');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('huevo','alimentos basicos',90.00,'4');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('harina','alimentos basicos',10.00,'4');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('maseca','alimentos basicos',15.00,'4');
+
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('espagueti','pasta',7.00,'5');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('coditos','pasta',8.00,'5');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('canelones','pasta',15.00,'5');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('lazos','pasta',8.00,'5');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('nidos','pasta',15.00,'5');
+
+
+
+
+
