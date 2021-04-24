@@ -6,9 +6,9 @@ insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('fanta','ref
 insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('7 up','refresco',45.00,'1');
 
 
-insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('shampu sedal','higiene personal',30.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('shampoo sedal','higiene personal',30.00,'2');
 insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('jabon protex','higiene personal',20.00,'2');
-insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('sepillo de diente colgate','higiene personal',15.00,'2');
+insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('cepillo de diente colgate','higiene personal',15.00,'2');
 insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('pasta de diente colgate','higiene personal',22.00,'2');
 insert into Producto (Nombre,Descripcion,Precio,ID_almacen) values ('acondicionador sedal','higiene personal',35.00,'2');
 
