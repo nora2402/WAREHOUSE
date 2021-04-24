@@ -1,0 +1,4 @@
+insert into Dependiente (nombre, telefono, email) values ('nora rodriguez','34553435','nora@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('zoar espinoza','94552435','zoar@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('cesar salinas','33358439','cesar@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('franklin chavarria','98765421','fran@gmail.com');
