@@ -3,9 +3,8 @@
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-03-22',200.00,15.00,170.00,'1','1');
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-02-4',500.00,15.00,425.00,'2','2');
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-01-1',100.00,15.00,85.00,'3','3');
-insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-03-5',80.00,15.00,68.00,'4','4');
-insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-01-2',80.00,15.00,68.00,'5','1');
-insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-04-2',60.00,15.00,51.00,'6','2');
+insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-03-5',80.00,15.00,68.00,'5','4');
+insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-01-2',80.00,15.00,68.00,'6','1');
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-01-10',150.00,15.00,127.50,'7','3');
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-02-11',30.00,15.00,25.50,'8','4');
 insert into Venta (fecha,total,ISV,sub_total,ID_cliente,ID_dependiente) values ('2021-03-30',10.00,15.00,8.50,'9','1');
