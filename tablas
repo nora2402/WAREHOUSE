@@ -53,10 +53,11 @@ descripcion varchar(255),
 primary key (ID_estado_cliente)
 );
 
-create table producto_venta (
+create table producto_venta(
 ID_producto int not null,
 ID_venta int not null,
-descripcion varchar(255),
+fecha date,
 primary key (ID_producto, ID_venta)
 );
+
 
