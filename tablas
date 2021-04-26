@@ -2,10 +2,10 @@ use proyectobases;
 
 
 CREATE TABLE Almacen(
-ID_producto int not null ,
+ID_almacen int not null ,
 cantidad char(50), 
 num_pasillo int,
-primary key (ID_producto)
+primary key (ID_almacen)
 );
 
 
