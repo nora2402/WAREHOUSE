@@ -1,0 +1,32 @@
+
+
+
+insert into Producto (Nombre,Marca) values ('coca cola','coca cola');
+insert into Producto (Nombre,Marca) values ('pepsi','pepsi');
+insert into Producto (Nombre,Marca) values ('Fanta','coca cola');
+insert into Producto (Nombre,Marca) values ('Freca','coca cola');
+insert into Producto (Nombre,Marca) values ('7 up','pepsi');
+
+insert into Producto (Nombre,Marca) values ('shampoo','sedal');
+insert into Producto (Nombre,Marca) values ('Jabon','protex');
+insert into Producto (Nombre,Marca) values ('cepillo dental','colgate');
+insert into Producto (Nombre,Marca) values ('pasta dental','colgate');
+insert into Producto (Nombre,Marca) values ('acondicionador','sedal');
+
+insert into Producto (Nombre,Marca) values ('clorix','orix');
+insert into Producto (Nombre,Marca) values ('escoba','orix');
+insert into Producto (Nombre,Marca) values ('aromantizante','orix');
+insert into Producto (Nombre,Marca) values ('cesto de basura','orix');
+insert into Producto (Nombre,Marca) values ('recogedor','orix');
+
+insert into Producto (Nombre,Marca) values ('frijoles','progreso');
+insert into Producto (Nombre,Marca) values ('arroz','progreso');
+insert into Producto (Nombre,Marca) values ('huevo','de la granja');
+insert into Producto (Nombre,Marca) values ('harina','la rosa');
+insert into Producto (Nombre,Marca) values ('maseca','maseca');
+
+insert into Producto (Nombre,Marca) values ('espagueti','don julio');
+insert into Producto (Nombre,Marca) values ('coditos','don julio');
+insert into Producto (Nombre,Marca) values ('canelones','don julio');
+insert into Producto (Nombre,Marca) values ('lazos','don julio');
+insert into Producto (Nombre,Marca) values ('nidos','don julio');

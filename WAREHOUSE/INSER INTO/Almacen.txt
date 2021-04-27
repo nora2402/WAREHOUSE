@@ -1,0 +1,5 @@
+insert into Almacen (ID_almacen,descripcion,ubicacion,telefono) values ('A','Refrescos','Anillo periferico',22456677);
+insert into Almacen (ID_almacen,descripcion,ubicacion,telefono) values ('B','Higiene Personal','Anillo periferico',22457788);
+insert into Almacen (ID_almacen,descripcion,ubicacion,telefono) values ('C','Limpieza del Hogar','Anillo periferico',22458899);
+insert into Almacen (ID_almacen,descripcion,ubicacion,telefono) values ('D','Alimentos Basicos','Anillo periferico',22459900);
+insert into Almacen (ID_almacen,descripcion,ubicacion,telefono) values ('E','Pastas','Anillo periferico',22450011);
