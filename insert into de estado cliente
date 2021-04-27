@@ -1,4 +1,0 @@
-insert into Estado_Cliente (descripcion) values ('nuevo');
-insert into Estado_Cliente (descripcion) values ('activo');
-insert into Estado_Cliente (descripcion) values ('preferencial');
-insert into Estado_Cliente (descripcion) values ('no activo');
