@@ -59,4 +59,15 @@ fecha date,
 primary key (ID_producto, ID_venta)
 );
 
+create table Inventario(
+ID_inventario int not null auto_increment,
+ID_almacen int,
+ID_producto int,
+cantidad int,
+fecha date,
+precio decimal,
+primary key(ID_inventario)
+);
+
+
 
