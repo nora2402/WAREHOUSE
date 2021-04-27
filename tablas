@@ -3,7 +3,7 @@ use proyectobases;
 
 CREATE TABLE Almacen(
 ID_almacen int not null ,
-decripcion varchar, 
+decripcion varchar(255), 
 primary key (ID_almacen)
 );
 
