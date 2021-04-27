@@ -37,3 +37,18 @@ ADD CONSTRAINT `ID_dependiente`
   ON UPDATE NO ACTION;
 
 
+ALTER TABLE `proyectobases`.`Inventario` 
+ADD INDEX `ID_almacen_idx` (`ID_almacen` ASC) VISIBLE;
+;
+ALTER TABLE `proyectobases`.`Inventario` 
+ADD CONSTRAINT `ID_almacen`
+  FOREIGN KEY (`ID_almacen`)
+  REFERENCES `proyectobases`.`Almacen` (`ID_almacen`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION,
+ADD CONSTRAINT `ID_producto`
+  FOREIGN KEY (`ID_producto`)
+  REFERENCES `proyectobases`.`Producto` (`ID_producto`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
