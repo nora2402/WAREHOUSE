@@ -2,3 +2,9 @@ insert into Dependiente (nombre, telefono, email) values ('nora rodriguez','3455
 insert into Dependiente (nombre, telefono, email) values ('zoar espinoza','94552435','zoar@gmail.com');
 insert into Dependiente (nombre, telefono, email) values ('cesar salinas','33358439','cesar@gmail.com');
 insert into Dependiente (nombre, telefono, email) values ('franklin chavarria','98765421','fran@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('rosa del carmen','99773435','rosa@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('juan perez','84332435','juan@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('marisol aguilar','89884422','marisol@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('javier lazarus','98711221','javier@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('andrea chinchilla','99882452','andrea@gmail.com');
+insert into Dependiente (nombre, telefono, email) values ('laurdes mejia','89833221','lourdes@gmail.com');
