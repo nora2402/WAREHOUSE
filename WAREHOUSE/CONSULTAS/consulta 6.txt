@@ -1,0 +1,11 @@
+select t1.ID_almacen as almacen,
+MONTHNAME(t3.fecha) AS Mes, 
+YEAR(t3.fecha) as Año,
+count(t3.ID_producto) as Cantidad_de_nuevos_productos_vendidos 
+from Almacen as t1
+inner join Inventario as t2
+on t1.ID_almacen = t2.ID_almacen
+inner join producto_venta as t3
+on t2.ID_producto = t3.ID_producto 
+group by t1.ID_almacen, t3.fecha
+order by t3.fecha  desc;

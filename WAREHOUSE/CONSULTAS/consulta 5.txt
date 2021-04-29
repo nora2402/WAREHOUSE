@@ -1,0 +1,10 @@
+select t1.ID_almacen as almacen, 
+((select sum(t2.cantidad*t2.precio) 
+ WHERE t2.fecha BETWEEN '2021-04-01' AND '2021-06-30')) as trimestre_actual,
+((select sum(t2.cantidad*t2.precio) 
+where t2.fecha BETWEEN '2021-01-01' AND '2021-03-31')) as trimestre_pasado 
+from Almacen as t1
+inner join Inventario as t2
+on t1.ID_almacen = t2.ID_almacen
+group by t1.ID_almacen, t2.fecha
+order by t1.ID_almacen asc;

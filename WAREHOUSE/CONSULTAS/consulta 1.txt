@@ -1,0 +1,9 @@
+SELECT t1.ID_almacen as almacen,
+t1.descripcion as nombre_almacen,
+COUNT(t2.cantidad) AS Cantidad_únicos_de_productos,
+ SUM(t2.cantidad) AS Cantidad_total_de_productos,
+ SUM(t2.cantidad) AS Total_de_activos_para_vender 
+FROM Almacen as t1
+inner join Inventario as t2
+where t1.ID_almacen = t2.ID_almacen
+group by t1.ID_almacen, t1.descripcion

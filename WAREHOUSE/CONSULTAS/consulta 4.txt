@@ -1,0 +1,11 @@
+select t1.Nombre as producto, 
+((select sum(t3.total) 
+ WHERE t2.fecha BETWEEN '2021-04-01' AND '2021-06-30')) as trimestre_actual,
+((select sum(t3.total) 
+where t2.fecha BETWEEN '2021-01-01' AND '2021-03-31')) as trimestre_pasado 
+from Producto as t1
+inner join producto_venta as t2
+on t1.ID_producto = t2.ID_producto
+join Venta as t3
+on t2.ID_venta = t3.ID_venta
+group by t1.Nombre, t2.fecha;

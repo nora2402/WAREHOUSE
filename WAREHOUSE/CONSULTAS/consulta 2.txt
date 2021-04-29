@@ -1,0 +1,9 @@
+SELECT t1.nombre as vendedor,
+COUNT(t2.ID_venta) AS Conteo_ventas_hechas,
+ SUM(t2.total) AS Sumatoria_de_los_totales_de_las_ventas_hechas 
+FROM Dependiente as t1
+inner join Venta as t2
+where t1.ID_dependiente = t2.ID_dependiente
+group by t1.ID_dependiente
+order by count(t2.ID_venta) desc
+limit 10;

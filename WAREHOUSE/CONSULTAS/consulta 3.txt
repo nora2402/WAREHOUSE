@@ -1,0 +1,9 @@
+SELECT t1.nombre as cliente,
+count(t2.ID_venta) AS Conteo_ventas_hechas, 
+SUM(t2.total) AS Sumatoria_de_los_totales_de_las_ventas_hechas 
+FROM cliente as t1
+inner join Venta as t2
+where t1.ID_cliente = t2.ID_cliente 
+group by t1.ID_cliente
+order by count(t2.ID_venta) desc
+limit 10;
