@@ -1,0 +1,14 @@
+##-	-	Mover todos los productos de un almacén a otro.
+DELIMITER $$
+CREATE PROCEDURE MoverProductos (IN almacen char, IN almacen2 char)
+BEGIN 
+
+update 
+Inventario set ID_almacen=almacen where ID_almacen=almacen2 ;
+
+
+END$$
+DELIMITER ; 
+
+
+CALL moverProductos ('B','A');

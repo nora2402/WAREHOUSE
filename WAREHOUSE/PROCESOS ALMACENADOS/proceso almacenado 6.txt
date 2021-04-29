@@ -1,0 +1,16 @@
+##-	-	Si despedimos a un dependiente moveremos todas la ventas de ese vendedor a otro vendedor.
+DELIMITER $$
+CREATE PROCEDURE EliminarVendedor (IN vendedor char, IN vendedor2 char)
+BEGIN 
+
+update 
+Venta set ID_dependiente=vendedor where ID_dependiente=vendedor2 ;
+
+delete 
+from Dependiente where ID_dependiente=vendedor2; 
+
+END$$
+DELIMITER ; 
+
+
+CALL EliminarVendedor (2,5);

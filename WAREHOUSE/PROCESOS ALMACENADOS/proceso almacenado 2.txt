@@ -1,0 +1,17 @@
+
+## agregar producto a la Venta
+DELIMITER $$
+CREATE PROCEDURE NuevoProducto (IN producto INT,IN venta INT, IN fecha date)
+BEGIN
+
+INSERT INTO
+producto_venta (ID_producto,ID_venta,fecha)
+VALUES (producto,venta,fecha);
+
+END$$
+DELIMITER ; 
+
+
+CALL NuevoProducto (12,33,'2021-04-28');
+
+

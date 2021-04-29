@@ -1,0 +1,15 @@
+## Crear una nueva Venta
+DELIMITER $$
+CREATE PROCEDURE NuevaVenta (IN SubTotal INT,IN Cliente INT, IN Dependiente INT)
+BEGIN
+
+INSERT INTO
+Venta (total,ISV,sub_total,ID_cliente,ID_dependiente)
+VALUES ((SubTotal*0.15 + SubTotal), SubTotal*0.15, SubTotal, Cliente, Dependiente);
+
+END$$
+DELIMITER ; 
+
+CALL NuevaVenta (200,2,3);
+
+SELECT * FROM Venta;
