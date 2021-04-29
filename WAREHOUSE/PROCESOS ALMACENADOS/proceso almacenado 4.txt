@@ -1,0 +1,15 @@
+##-	Revertir una venta ya cerrada.
+DELIMITER $$
+CREATE PROCEDURE RevertirVenta (IN venta int)
+BEGIN 
+
+
+
+delete 
+from Venta where ID_Venta=venta; 
+
+END$$
+DELIMITER ; 
+
+
+CALL RevertirVenta (33);
